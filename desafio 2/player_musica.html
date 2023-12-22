@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Player de Musica</title>
+        <link rel="stylesheet" href="player_musica.css">
+    </head>
+
+    <body>
+        <main>
+            <section id="player1">
+                <img id="capa_player1" src="https://i.pinimg.com/564x/5f/9a/e7/5f9ae7b3222cb677cbcf8ce4d3310a40.jpg">
+                <div class="textos1">
+                    <h>Pé na areia</h>
+                    <p>Diogo Nogueira</p>
+                </div>
+                <div class="botoes1">
+                    <button id="previousmusic">&#11207&#11207</button>
+                    <button id="playmusic" onclick="togglePlayPause()">&#11208</button>
+                    <button id="nextmusic">&#11208&#11208</button>
+                </div>
+                <div class="musictime1">
+                    <input id="progress" class="progress" type="range" min="0" max="100" value="70">
+                    <div class="times1">
+                        <span id="currenttime">0:00</span>
+                        <span id="duration">3:00</span>
+                    </div>
+                </div>
+                <audio id="audioPlayer" src="Pé Na Areia (Ao Vivo)(MP3_320K).mp3"></audio>
+            </section>
+            <section id="player2">
+                <div class="itensmusica2">
+                    <img id="capa_player2"
+                        src="https://i.pinimg.com/564x/5f/9a/e7/5f9ae7b3222cb677cbcf8ce4d3310a40.jpg">
+                    <div class="textos2">
+                        <h>Pé na areia</h>
+                        <p>Diogo Nogueira</p>
+                    </div>
+                </div>
+                <div class="botoes2">
+                    <button id="previousmusic">&#11207&#11207</button>
+                    <button id="playmusic" onclick="togglePlayPause()">&#11208</button>
+                    <button id="nextmusic">&#11208&#11208</button>
+                </div>
+                <div class="musictime2">
+                    <input id="progress2" class="progress2" type="range" min="0" max="100" value="70">
+                    <div class="times2">
+                        <span id="currenttime">0:00</span>
+                        <span id="duration">3:00</span>
+                    </div>
+                </div>
+                <audio id="audioPlayer" src="Pé Na Areia (Ao Vivo)(MP3_320K).mp3"></audio>
+            </section>
+            <section id="player3">
+                <div class="itensmusica3">
+                    <img id="capa_player3"
+                        src="https://i.pinimg.com/564x/5f/9a/e7/5f9ae7b3222cb677cbcf8ce4d3310a40.jpg">
+                    <div class="textos3">
+                        <h>Pé na areia</h>
+                        <p>Diogo Nogueira</p>
+                    </div>
+                </div>
+                <div class="botoes3">
+                    <button id="previousmusic">&#11207&#11207</button>
+                    <button id="playmusic" onclick="togglePlayPause()">&#11208</button>
+                    <button id="nextmusic">&#11208&#11208</button>
+                </div>
+                <audio id="audioPlayer" src="Pé Na Areia (Ao Vivo)(MP3_320K).mp3"></audio>
+            </section>
+        </main>
+
+        <script>
+            function togglePlayPause() {
+                var audio = document.getElementById('audioPlayer');
+                /* Apenas o botão para iniciar/pausar a música foi criado(como um extra ao conteudo, restante ficou a ser adicionado)*/
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+            }
+        </script>
+    </body>
+
+</html>
