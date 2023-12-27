@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Login</title>
+    </head>
+
+    <body>
+        <main class="main">
+            <div class="box_login">
+                <div class="logo_site">
+                    <img src="logo.png">
+                </div>
+                <div class="box_form">
+                    <div class="Textos">
+                        <h1 class="Title">Acesse a plataforma</h1>
+                        <p class="paragrafo">Faça login ou registre-se para começar a construir seus projetos ainda
+                            hoje.</p>
+                    </div>
+                    <div class="Cards">
+                        <div class="inputs-group">
+                            <div class="card-email">
+                                <label for="email">E-mail</label>
+                                <input type="text" placeholder="Digite seu e-mail" id="email">
+                            </div>
+                            <div class="card-passw">
+                                <div class="password">
+                                    <label for="senha">Senha</label>
+                                    <a href="registro.html" class="forgot_pass">Esqueceu a senha?</a>
+                                </div>
+                                <input type="password" placeholder="Digite sua senha" id="senha">
+                            </div>
+                        </div>
+                        <div class="Buttons">
+                            <button class="btnlogin" onclick="validarLogin()">Entrar</button>
+                            <p id="mensagemErro" class="mensagemErro"></p>
+                            <p>Ainda não tem conta? <a href="registro.html" class="novo_user">Inscreva-se</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_art_login">
+                <img src="img_background.png">
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+</html>

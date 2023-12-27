@@ -117,6 +117,7 @@ p {
 
 .progress {
     -webkit-appearance: none;
+    appearance: none;
     outline: none;
     width: 189.66px;
     height: 6px;
@@ -208,6 +209,7 @@ p {
 
 .progress2 {
     -webkit-appearance: none;
+    appearance: none;
     outline: none;
     width: 300.09px;
     height: 6px;

@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "João Pereira",
+            "email": "joaopereira@gmail.com",
+            "password": "Senha123"
+        },
+        {
+            "id": 2,
+            "name": "Ana Silva",
+            "email": "anasilva@outlook.com",
+            "password": "Outlook456"
+        },
+        {
+            "id": 3,
+            "name": "Carlos Oliveira",
+            "email": "carlosoliveira@gmail.com",
+            "password": "Gmail789"
+        }
+    ]
+}
