@@ -1,0 +1,5 @@
+É um simples sistema de login, utilizando html, css e js
+O usuario informa seu e-mail e senha, caso o mesmo deixe espaço em branco
+aparace a mensagem de "Preencha todos os campos". O sistema, utiliza um 
+arquivo json que simula um banco de dados para verificar se o usuário está
+cadastrado no sistema.
