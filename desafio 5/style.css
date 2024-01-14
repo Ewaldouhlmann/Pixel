@@ -1,0 +1,230 @@
+body,
+main {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.content-box {
+    width: 736px;
+    height: 420px;
+    gap: 48px;
+    padding: 32px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 672px;
+    height: 56px;
+    background-color: #9333EA;
+    transition: background-color 0.3s ease;
+    min-height: 56px;
+}
+
+button:hover {
+    background-color: #6D28D9;
+}
+
+.card-content {
+    width: 672px;
+    height: 252px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 64px;
+    border-radius: 8px;
+}
+
+input {
+    color: #F3F4F6;
+}
+
+.input-box {
+    width: 328px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.number-box,
+.titular-box,
+.cvv-validate_box {
+    width: 328px;
+    height: 68px;
+}
+
+.number-box input,
+.titular-box input,
+.cvv-box input,
+.validate-box input {
+    border: 1px solid #374151;
+
+}
+
+.number-box,
+.titular-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.titular-box input,
+.number-box input {
+    width: 328px;
+    height: 32px;
+    background-color: #111827;
+}
+
+.cvv-validate_box {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 328px;
+    height: 68px;
+}
+
+.cvv-box,
+.validate-box {
+    width: 156px;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cvv-box input,
+.validate-box input {
+    width: 156px;
+    height: 32px;
+    background-color: #111827;
+}
+
+.card-container {
+    width: 280px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.msg-safe_box {
+    width: 178px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.msg-safe_box p {
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.msg-safe_box img {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.card-draw {
+    background: linear-gradient(to right, #000000, #321111, #ad1f06);
+    width: 280px;
+    height: 168px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-flag {
+    display: flex;
+    gap: 176px;
+    width: 232px;
+    height: 32px;
+    margin-top: 16px;
+    margin-left: 24px;
+    justify-content: space-between;
+}
+
+.card-number_card {
+    background: transparent;
+    margin-top: 20px;
+    margin-left: 24px;
+    font-size: 20px;
+    display: flex;
+}
+
+.card-number_card input {
+    width: 44px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.namedate_box {
+    width: 232px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+.card-name {
+    width: 159px;
+    height: 16px;
+    font-family: 'source sans pro', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+}
+
+.card-date {
+    width: 35px;
+    height: 16px;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+}
+
+.warning-number {
+    height: 3px;
+    margin-top: 10px;
+    color: #ff0000;
+    font-size: 12px;
+    /* Espaçamento superior para o aviso */
+}

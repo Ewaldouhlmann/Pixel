@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de cartão</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="content-box">
+                <div class="card-content">
+                    <div class="input-box">
+                        <div class="number-box">
+                            <label for="card-number">Número do cartão</label>
+                            <input type="text" id="card-number" placeholder="Número do cartão" maxlength="19"></input>
+                        </div>
+
+                        <div class="titular-box">
+                            <label for="card-name">Nome do titular</label>
+                            <input type="text" id="card-name" placeholder="Nome como está no cartão" maxlength="16">
+                        </div>
+
+
+                        <div class="cvv-validate_box">
+                            <div class="validate-box">
+                                <label for="card-validate">Validade</label>
+                                <input type="text" id="card-validate" placeholder="mm/aa" maxlength="5">
+                            </div>
+                            <div class="cvv-box">
+                                <label for="card-cvv">CVV<a class="cvv-info">?</a></label>
+                                <input type="password" id="card-cvv" placeholder="***" maxlength="3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+
+                        <div class="card-draw">
+
+                            <div class="card-flag">
+                                <img src="img/Bandeiras cartão.png">
+                                <img src="img/ContactlessPayment.png">
+                            </div>
+                            <div class="card-number_card">
+
+                                <input type="text" class="card-number_card1" id="card-number1" value="****" readonly>
+                                <input type="text" class="card-number_card2" id="card-number2" value="****" readonly>
+                                <input type="text" class="card-number_card3" id="card-number3" value="****" readonly>
+                                <input type="text" class="card-number_card4" id="card-number4" value="****" readonly>
+                            </div>
+                            <div class="namedate_box">
+                                <input type="text" id="card-titular" placeholder="Seu nome aqui" class="card-name"
+                                    readonly>
+                                <input type="text" id="card-date" placeholder="**/**" class="card-date" readonly>
+                            </div>
+                        </div>
+                        <div class="msg-safe_box">
+                            <img src="img/verificado.png">
+                            <p>Comprar com segurança</p>
+                        </div>
+
+                    </div>
+                </div>
+                <button id="btn_addcard">Adicionar cartão</button>
+                <p id="warning-number" class="warning-number"></p>
+            </div>
+        </main>
+    </body>
+    <script src="script.js"></script>
+
+</html>

@@ -37,8 +37,9 @@ function validarLogin() {
         console.log("Usuário não encontrado");
         return null;
     }
+
+
+
+    const retorno = verificaUser("joaopereira@gmail.com", "Senha123");
+    console.log(retorno);
 }
-
-
-const retorno = verificaUser("joaopereira@gmail.com", "Senha123");
-console.log(retorno);
