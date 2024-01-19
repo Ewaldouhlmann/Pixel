@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="app">
+            <div id="chat-container">
+                <div id="chat-header">
+                    <div id="receiver-info">
+                        <img id="sapixel-img" src="img/sapixel.png" alt="Avatar">
+                        <div id="receiver-name-status">
+                            <h1 id="receiver-name">Sapixel</h1>
+                            <div id="receiver-status">
+                                <div class="status-circle"></div>
+                                <h1 id="receiver-status-text">Online</h1>
+                            </div>
+                        </div>
+                        <button id="back-btn">X</button>
+                    </div>
+                    <h1 id="last-seen-receiver">Hoje 11:30</h1>
+                </div>
+                <div id="msg-list">
+                    <div id="received-msg">
+                        <h id="time-msg">Sapixel - 11:30</h>
+                        <div id="msg-received-box">
+                            <p id="msg-text">Tive uma ideia incrível para um projeto! 😍</p>
+                        </div>
+                    </div>
+                    <div id="sended-msg">
+                        <h id="time-msg">Você - 11:32</h>
+                        <div id="msg-sent-box">
+                            <p id="msg-text">Sério? Me conta mais.</p>
+                        </div>
+                    </div>
+                    <div id="received-msg">
+                        <h id="time-msg">Sapixel - 11:34</h>
+                        <div id="msg-received-box">
+                            <p id="msg-text">E se a gente fizesse um chat moderno e responsivo em apenas uma semana?</p>
+                        </div>
+                    </div>
+                    <div id="sended-msg">
+                        <h id="time-msg">Você - 11:36</h>
+                        <div id="msg-sent-box">
+                            <p id="msg-text">#boraCodar! 🚀</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="msg-input-box">
+                    <input id="msg-input" type="text" placeholder="Digite sua mensagem...">
+                    <button id="send-btn"><img src="img/btn-send-msg.png"></button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
